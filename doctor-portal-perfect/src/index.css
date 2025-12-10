@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: #e9e4ff;               /* soft purple-neutral background */
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page {
+  margin-left: 280px;
+  padding: 40px;
+  padding-top: 120px;
+}
+
+.table-hover tbody tr:hover {
+  background: rgba(120, 80, 255, 0.08);
+  cursor: pointer;
+}
+
+.neo-input {
+  border-radius: 12px !important;
+  padding: 10px 14px;
+  border: none;
+  box-shadow: inset 5px 5px 10px #cfc7e4,
+              inset -5px -5px 10px #ffffff;
+  background: #e9e4ff;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b9aef2;
+  border-radius: 20px;
+}

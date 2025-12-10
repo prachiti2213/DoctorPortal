@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.row > .col-md-3 {
+  padding: 0 10px;
+}
+
+.chat-msg {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.patient-msg {
+  justify-content: flex-start;
+}
+
+.doctor-msg {
+  justify-content: flex-end;
+}
+
+.chat-bubble {
+  max-width: 60%;
+  border-radius: 20px;
+}
